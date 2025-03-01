@@ -18,5 +18,8 @@ target
 
 logs
 
+config/*
+dev/*
+
 out
 *.log
