@@ -55,12 +55,12 @@ public class MoodContent {
             return false;
         }
         MoodContent that = (MoodContent) o;
-        return Objects.equals(id, that.id) && Objects.equals(mood, that.mood) && Objects.equals(text, that.text);
+        return Objects.equals(id, that.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, mood, text);
+        return Objects.hashCode(id);
     }
 }
 
